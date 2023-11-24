@@ -1,0 +1,31 @@
+#root {
+  max-width: 780px;
+  padding: 2rem 6rem;
+  margin: 0 auto;
+}
+
+button {
+  margin-right: 15px;
+  border: 1px solid black;
+  padding: 0.6em 1.2em;
+  font-size: 14px;
+  font-weight: 500;
+  font-family: inherit;
+  cursor: pointer;
+}
+
+.active {
+  border: none;
+  background-color: #1a1a1a;
+  color: #fff;
+}
+
+.projectsContainer {
+  margin-top: 30px;
+  column-count: 3;
+}
+
+.image {
+  width: 250px;
+  margin-bottom: 10px;
+}
